@@ -1,5 +1,8 @@
 ## Function
 This code builds the exact N-body Schrödinger Hamiltonian, with interaction, and propagates waves in time. It can handle any number of particles but only the dimension one.
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
 
 ## Run
 Run the script opening julia and calling
