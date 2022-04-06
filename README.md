@@ -1,5 +1,6 @@
 <p align="center">
-    <img src="Logo.png" width="400" max-width="90%" alt="Plot" />
+    <img src="plots/main.png" width="400" max-width="90%" alt="Plot" />
+    <img src="plots/pair_density_ρ.png" width="400" max-width="90%" alt="Plot" />
 </p>
 
 ## Run
