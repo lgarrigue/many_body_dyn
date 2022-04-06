@@ -540,7 +540,7 @@ function test_Nb_Lap(f,g,pS) # tests whether Δ(f(x)*g(y)) = (Δf(x))g(y) + f(x)
 	A = heatmap(abs.(a),axis=nothing)
 	B = heatmap(abs.(b),axis=nothing)
 	pl = plot(C,A,B)
-	savefig(pl,"test_lap.png")
+	savefig(pl,"plots/test_lap.png")
 end
 
 ############################## Plots
@@ -567,7 +567,7 @@ function save_pair_density(ρ2,p,name)
 		push!(pls,h)
 	end
 	pl = plot(pls...)
-	savefig(pl,string("pair_density_",name,".png"))
+	savefig(pl,string("plots/pair_density_",name,".png"))
 end
 
 ############################## Examples of use
@@ -602,7 +602,7 @@ save_pair_density(ρ2,pD,"ρ")
 
 # Plots
 pl = plot(plot(pD.x_axis,orbitals,title="Initial orbitals"),plot2d(v,pD,"Potential"),plot2d(ρ,pD,"ρ"),size=size_plots) # Plots the initial orbitals, the potential and the density
-savefig(pl,"main.png")
+savefig(pl,"plots/main.png")
 
 ### 1 corps, former tests
 # pS1 = ParamsN(1,Nx,L); init_N_Laplacian(pS1); pD1 = ParamsNdyn(Nt,T,pS1); init_Nb_Laplacian_dyn(pD1,pS1)
