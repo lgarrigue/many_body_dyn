@@ -12,9 +12,9 @@ The example given in the script will create a potential and propagate Schröding
 ## Example
 Here is an example of the evolution of a wave, we represent the potential and the one-body density
 <p align="center">
-    <img src="plots/main.png" width="400" max-width="90%" alt="Plot" />
+    <img src="plots/main.png" width="800" alt="Plot" />
 </p>
 and the pair density at six different times
 <p align="center">
-    <img src="plots/pair_density_ρ.png" width="400" max-width="90%" alt="Plot" />
+    <img src="plots/pair_density_ρ.png" width="800" alt="Plot" />
 </p>
