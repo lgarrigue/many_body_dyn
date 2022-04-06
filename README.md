@@ -1,8 +1,5 @@
 ## Function
 This code builds the exact N-body Schrödinger Hamiltonian, with interaction, and propagates waves in time. It can handle any number of particles but only the dimension one.
-```math
-e^{i\pi} + 1 = 0
-```
 
 ## Run
 Run the script opening julia and calling
